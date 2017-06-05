@@ -1,0 +1,11 @@
+
+
+header {
+	border: 1px dashed teal;
+}
+
+header li {
+   display: inline;
+   text-decoration: none;
+   padding: 0 1em;
+}
