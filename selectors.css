@@ -1,4 +1,4 @@
-
+/************ NAV STYLES ***********/
 
 header {
 	border: 1px dashed teal;
@@ -8,4 +8,51 @@ header li {
    display: inline;
    text-decoration: none;
    padding: 0 1em;
+}
+
+/**************FORM/LINK STYLE ***********/
+
+:disabled {
+   color: gray;
+}
+
+a:disabled {
+	color: purple;
+}
+
+:active {
+  color: yellow;
+}
+
+input[type="text"] {
+	height: 25px;
+}
+
+/*********COLORS & TEXT***************/
+.red {
+
+	color: red;
+}
+
+.blue {
+	color: blue;
+}
+
+div.red + h4 {
+	background-color: red;
+}
+
+div.blue + h4 {
+	background-color: blue;
+}
+
+div.grandparent > h4 {
+	border: 1px solid black;
+	border-radius: 22px;
+}
+
+
+.promo {
+   color: gold;
+   font-weight: bold;
 }
